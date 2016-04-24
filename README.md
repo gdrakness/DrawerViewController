@@ -4,7 +4,7 @@ When I first came to implement a drawer-like view controller, I thought I might 
 
 OK, this DrawerViewController provide a drawer for UITabBarViewController like this:
 
-
+![demo.jpg](https://github.com/Josscii/DrawerViewController/blob/master/demo.gif)
 
 # Usage
 
