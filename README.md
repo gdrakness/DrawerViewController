@@ -23,7 +23,8 @@ set the items property in WYTabBarController, the items is an array with NSDicti
  *  the first key is `title`, value is a string 
  *  the second key is `image`, value is a image
 
-# TODO:
+# TODO
 
-* add more drawer effect, like move to right.
-* add user-customizable drawer, like add drawer header and sections.
+* Add more drawer effect, like move to right.
+* Add user-customizable drawer, like add drawer header and sections.
+* Cocoapods support.
