@@ -30,7 +30,6 @@
         self.tabBar.hidden = YES;
         [self.view addGestureRecognizer:self.leftEdgePanGesture];
         
-        self.drawerController.items = self.items;
         self.drawerController.selectedItem = self.selectedIndex;
     }
     return self;
@@ -155,6 +154,11 @@
         _transitionDelegate.delegate = self;
     }
     return _transitionDelegate;
+}
+
+- (void)setItems:(NSArray *)items {
+    _items = items;
+    self.drawerController.items = items;
 }
 
 @end

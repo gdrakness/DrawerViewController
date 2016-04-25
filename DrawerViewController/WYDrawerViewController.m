@@ -9,7 +9,7 @@
 #import "WYDrawerViewController.h"
 #import "WYSelectCell.h"
 
-@interface WYDrawerViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface WYDrawerViewController ()
 
 /*注意，被 present 的 viewController 最好不要添加一个与self.view等bounds的直接 subview，否则会导致后面的 view size改变后，这个 subview size 没有改变
 @property (nonatomic, strong) UITableView *tableView; */
